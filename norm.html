@@ -1,0 +1,29 @@
+
+
+<html>
+<h1 style="color:blue"><center><u>NORMALISATIONS</u></center></h1>
+<h1 style="color:blue"><u>NORMAL FORMS</u></h1>
+<style>
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/951/760/27/pink-flowers-background-wallpaper-thumb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<h2><u>It Contains Mainly 5 types:</u></h2>
+<ol>
+<li style="font-size:30px"><u>1NF:</u>If a relation contain composite or multi-valued attribute, it violates first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is singled valued attribute.</li><br>
+<li style="font-size:30px"><u>2NF:</u>
+To be in second normal form, a relation must be in first normal form and relation must not contain any partial dependency. A relation is in 2NF if it has No Partial Dependency, i.e., no non-prime attribute (attributes which are not part of any candidate key) is dependent on any proper subset of any candidate key of the table.
+Partial Dependency – If the proper subset of candidate key determines non-prime attribute, it is called partial dependency</li><br>
+<li style="font-size:30px"><u>3NF:</u><br>A relation is in third normal form, if there is no transitive dependency for non-prime attributes as well as it is in second normal form.
+A relation is in 3NF if at least one of the following condition holds in every non-trivial function dependency X –> Y
+X is a super key.
+Y is a prime attribute (each element of Y is part of some candidate key)</li><br>
+<li style="font-size:30px"><u>BCNF:</u>A relation R is in BCNF if R is in Third Normal Form and for every FD, LHS is super key. A relation is in BCNF iff in every non-trivial functional dependency X –> Y, X is a super key</li><br>
+<li style="font-size:30px"><u>4NF:</u>A relation will be in 4NF if it is in Boyce Codd normal form and has no multi-valued dependency.
+For a dependency A → B, if for a single value of A, multiple values of B exists, then the relation will be a multi-valued dependency.</li><br>
+</ol>
+</html>
